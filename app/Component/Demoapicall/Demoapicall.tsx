@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 interface Movie {
   id: number;
@@ -140,7 +141,7 @@ export default function MovieApp() {
               onClick={() => handleMovieClick(movie)}
               className="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer hover:shadow-lg transition-shadow duration-300"
             >
-              <img
+              <Image width={500} height={750}
                 src={
                   movie.poster_path
                     ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
