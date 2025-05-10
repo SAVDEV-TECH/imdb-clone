@@ -15,6 +15,7 @@ const Header = () => {
     const [toggleopen,settoggleopen]=useState(false)
     const [searchdropdowns,setsearchdropdown]=useState(false)
     const [languagedropdowns,setlanguagedropdown]=useState(false)
+    const [setvalue,setvvalue]=useState('')
     const handleToggle = () => {
         settoggleopen(!toggleopen); // Toggle the nav visibility
       };
@@ -26,6 +27,7 @@ const Header = () => {
       const searchdropdown = () =>{
          setsearchdropdown(!searchdropdowns)
       }
+       
   return (
     <div className='flex  bg-black px-4 items-center justify-center sm:justify-center relative sm:px-5 h-[55px] gap-[5px] w-full'>
 
@@ -47,7 +49,7 @@ const Header = () => {
         </label>
         
       <label   htmlFor='search' className={` w-[93%]   pr-3   h-full relative flex item-center justify-between`}> 
-       <input className='w-full h-[100%] pl-3 outline-none border-none  ' type="search" name="search" id="search" placeholder='Search imdb' />
+       <input value={setvalue} onChange={(e)=>setvvalue(e.target.value)} className='w-full h-[100%] pl-3 text-black outline-none border-none  ' type="search" name="search" id="search" placeholder='Search imdb' />
        <IoMdSearch className='mt-2 hidden text-gray-400 text-[20px] md:flex cursor-pointer' />
        <LiaTimesSolid onClick={()=>setsearchdropdown(false)}   className={` mt-4 flex text-gray-400 md:hidden text-[20px] cursor-pointer`}></LiaTimesSolid>
        </label>

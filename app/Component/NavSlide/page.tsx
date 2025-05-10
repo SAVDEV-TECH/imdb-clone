@@ -1,8 +1,13 @@
+'use client'
 import Link from 'next/link';
 import React, { useState } from 'react'
 import { FaAngleDown } from 'react-icons/fa'
 import { LiaTimesSolid } from "react-icons/lia";
-const NavSlide = ({isopen,onClose}) => {
+interface propsa{
+  isopen:boolean,
+  onClose:any
+}
+const NavSlide = ({isopen,onClose}:propsa) => {
     const [ dropshow, setdropshow ]=useState(false)
 
     const showdropdown = () =>{

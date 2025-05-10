@@ -5,7 +5,7 @@ import { title } from 'process'
   address:string,
   title:string
  }
- const menuitem = ({address,title}:{address:address,title:title}) => {
+ const menuitem = ({address,title}: item) => {
      
    return (
      <div>
