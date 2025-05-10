@@ -5,7 +5,7 @@ import { FaAngleDown } from 'react-icons/fa'
 import { LiaTimesSolid } from "react-icons/lia";
 interface propsa{
   isopen:boolean,
-  onClose:any
+  onClose:()=>void
 }
 const NavSlide = ({isopen,onClose}:propsa) => {
     const [ dropshow, setdropshow ]=useState(false)
