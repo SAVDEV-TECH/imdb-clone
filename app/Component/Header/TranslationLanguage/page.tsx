@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TranslationLanguage({openlanguage}) {
+function TranslationLanguage({openlanguage}:{openlanguage:boolean}) {
   return (
     <div className={`${openlanguage? 'scale-y-100  ': 'scale-y-0 opacity-0 transition-[400] '} w-[300px] origin-top transition-[500] h-auto cursor-auto absolute right-0 top-[58px] bg-black`}>
         <div className=" ">
