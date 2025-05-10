@@ -1,27 +1,22 @@
- const items=
- [
-    {
-        text:'Movie',
-        imagevideo1:'',
-        imagevideo2:''
-    },
-    {
-        text:'Movie',
-        imagevideo1:'',
-        imagevideo2:''
-    },{
-        text:'Movie',
-        imagevideo1:'',
-        imagevideo2:''
-    },{
-        text:'Movie',
-        imagevideo1:'',
-        imagevideo2:''
-    },
-    {
-        text:'Movie',
-        imagevideo1:'',
-        imagevideo2:''
-    },  
+//  const items=
+//  [
+//     {
+//         text:'Movie',
+        
+//     },
+//     {
+//         text:'Movie',
+         
+//     },{
+//         text:'Movie',
+        
+//     },{
+//         text:'Movie',
+        
+//     },
+//     {
+//         text:'Movie',
+         
+//     },  
      
- ]
+//  ]
