@@ -5,7 +5,7 @@ import Menuitem from './menuitem'
 import { IoMdSearch } from "react-icons/io";
 import { VscTriangleDown } from "react-icons/vsc";
 import { RxHamburgerMenu } from "react-icons/rx";
-import NavSlide from '../NavSlide/page';
+import NavSlide from '@/app/Component/NavSlide/navslide';
 import TranslationLanguage from './TranslationLanguage/trans';
 import { LiaTimesSolid } from "react-icons/lia";
 
