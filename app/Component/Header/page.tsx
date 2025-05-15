@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState } from 'react'
-import Menuitem from './menuitem/page'
+import Menuitem from './menuitem'
 import { IoMdSearch } from "react-icons/io";
 import { VscTriangleDown } from "react-icons/vsc";
 import { RxHamburgerMenu } from "react-icons/rx";
