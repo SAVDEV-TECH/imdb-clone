@@ -6,7 +6,7 @@ interface MenuItemProps {
   title: string;
 }
 
-const MenuItem = ({ address, title }: MenuItemProps) => {
+export default function  MenuItem ({ address, title }: MenuItemProps) {
   return (
     <div>
       <Link 
@@ -19,5 +19,5 @@ const MenuItem = ({ address, title }: MenuItemProps) => {
   );
 };
 
-export default MenuItem;
+ 
  
